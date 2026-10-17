@@ -1,0 +1,88 @@
+@media screen and (max-width: 767px) {
+    #services > .container > .row {
+        gap: 25px;
+    }
+
+    #services .service-left,
+    #services .service-right {
+        width: 100%;
+    }
+
+    #services .service-left img {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #services .container {
+        width: 95%;
+    }
+
+    #services h2 {
+        font-size: 36px;
+    }
+
+    #services .text {
+        margin-bottom: 25px;
+    }
+
+    #services .service-left img {
+        height: 350px;
+    }
+
+    #services .service-right {
+        gap: 15px;
+    }
+
+    #services .service-item {
+        padding: 20px;
+    }
+
+    #services .service-item p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #services h2 {
+        font-size: 30px;
+    }
+
+    #services .service-item {
+        padding: 15px;
+    }
+
+    #services .service-item h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #services > .container > .row {
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    #services .service-left,
+    #services .service-right {
+        width: calc(50% - 10px);
+    }
+
+    #services .service-left img {
+        height: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+
+    #services .service-right {
+        gap: 15px;
+    }
+
+    #services .service-item {
+        padding: 18px;
+    }
+
+    #services .service-item p br {
+        display: none;
+    }
+}
